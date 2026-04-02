@@ -1,0 +1,12 @@
+target/
+*.class
+*.jar
+*.war
+.idea/
+*.iml
+.eclipse/
+.settings/
+uploads/
+soundwave-db.*
+*.log
+.DS_Store

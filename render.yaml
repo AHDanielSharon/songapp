@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: soundwave
+    runtime: docker
+    envVars:
+      - key: PORT
+        value: 10000
+    disk:
+      name: soundwave-uploads
+      mountPath: /app/uploads
+      sizeGB: 1
